@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="feuille_de_style.css"> 
+        
+        <title>Accueil</title> 
+    </head>
+
+    <body>
+        <header class="dark-mode">
+
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379 4.246-3.611-2.625-3.612 2.625 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388 7.416 5.388-2.833-8.718 7.417-5.389h-9.167l-2.833-8.718z"/>
+                </svg>
+            </div>
+
+            <div class="titre">
+                <h1>Stars Shop</h1>
+            </div>
+
+            
+            <input type="checkbox" id="ch">
+            <div class="navigation">               
+                <ul>
+                    <li><a href="page_accueil.html">Accueil</a></li>
+                    <li><a href="panier.html">Panier</a></li>
+                    <li><a href="page_contact.html">Contact</a></li>
+                    <li><a href="page_qui_je_suis.html">Qui suis-je ?</a></li>
+                </ul>
+
+                <div class="zone_recherche">
+                    <div id="champ_de_recherche">
+                        <input 
+                            type="search" 
+                            placeholder="Objet céleste..."
+                        >
+                    </div>
+                    <div id="icone_loupe">
+                        <a href="page_article.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M23.111 20.058l-4.977-4.977c.965-1.52 1.523-3.322 1.523-5.251 0-5.42-4.409-9.83-9.829-9.83-5.42 0-9.828 4.41-9.828 9.83s4.408 9.83 9.829 9.83c1.834 0 3.552-.505 5.022-1.383l5.021 5.021c2.144 2.141 5.384-1.096 3.239-3.24zm-20.064-10.228c0-3.739 3.043-6.782 6.782-6.782s6.782 3.042 6.782 6.782-3.043 6.782-6.782 6.782-6.782-3.043-6.782-6.782zm2.01-1.764c1.984-4.599 8.664-4.066 9.922.749-2.534-2.974-6.993-3.294-9.922-.749z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+            <label for="ch" class="bouton_burger_croix">
+                <svg id="burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 17h-12v-2h12v2zm0-4h-12v-2h12v2zm0-4h-12v-2h12v2z"/>
+                </svg>
+            </label>
+
+            
+            
+        </header>
+            
+        <main>
+            <aside>
+                <p>Tous les prix sont donnés en Crédits Intergalactiques - Cryptomonnaies Quantiques non acceptées</p>
+            </aside>
+
+
+            <section>
+                <h2>PLANETES</h2>
+
+                <p>Offrez-lui la Lune ou une planète !!!</p>
+
+                <ul>
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Mars</h3>
+                                <p>Voyagez en compagnie d'Elon Musk avec Space-X et rejoignez la planète rouge !</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/planetes/mars.jpg" alt="Planète Mars" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 15 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Tatooine</h3>
+                                <p>Embarquez à bord du Faucon Millenium et visitez la planète de Luke Skywalker !</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/planetes/tatooine.jpg" alt="Planète Tatooine" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 295 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Krypton</h3>
+                                <p>Prenez place à bord d'une capsule avec Clark Kent et rendez visite à Zor-El !</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/planetes/krypton.jpg" alt="Planète Krypton" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 225 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+
+
+            <section>
+                <h2>ETOILES</h2>
+
+                <p>Besoin de vous réchauffer ou simplement d'avoir un joli bronzage type... carbonisé ! Ou désintégré ?</p>
+
+                <ul>
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Sirius</h3>
+                                <p>A peine 2 fois plus grande que notre soleil... Est-ce suffisant pour vous ?</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/etoiles/sirius.jpeg" alt="Etoile Sirius" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 200 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Rigel</h3>
+                                <p>Envie de vous offrir une géante bleue ? Enfin, pas si géante que ça puisqu'elle ne fait que 35 fois la taille de notre Soleil !</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/etoiles/rigel.jpg" alt="Etoile Rigel" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 295 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Canis Majoris</h3>
+                                <p>Voyez les choses en grand ! Que dis-je ? En HYPERGEANT ! Plus de 2000 fois la taille de notre Soleil !</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/etoiles/canis_majoris.jpg" alt="Etoile Canis Majoris" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 1 750 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+
+
+            <section>
+                <h2>Autres objets célestes</h2>
+
+                <p>Autres types de destination...</p>
+
+                <ul>
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>La Lune PANDORA</h3>
+                                <p>Poursuivez l'exploration de cette Lune méconnue avant que James Cameron ne décide d'y établir sa villa !</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/autres_objets/polyphemus_and_pandora.jpg" alt="Lune Pandora" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 380 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Asteroïde Oumuamua</h3>
+                                <p>Et pourquoi pas un astéroïde en forme de vaisseau spacial ???</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/autres_objets/asteroide_oumuamua.jpg" alt="Asteroide Oumuamua" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 75 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="presentation_article">
+                            <a href="page_article.html">
+                                <h3>Comète Hale-Bopp</h3>
+                                <p>Ou simplement un gros glaçon ?</p>
+                            </a>
+                        </div>
+                            
+                        <div class="photo_article">
+                            <a href="page_article.html">
+                                <img src="images/autres_objets/comete_hale_bopp.jpg" alt="Comète Hale-Bopp" />
+                            </a>
+                        </div>
+                            
+                        <div class="prix_article">
+                            <p>Prix : 65 000 C.I.</p>
+                        </div>
+                            
+                        <div class="ajouter_au_panier">
+                            <input type="button" value="Ajouter au panier">
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+        </main>
+
+
+        <footer>
+            <section>
+                <h2> Projet WEB uniquement en HTML/CSS réalisé par Sebastien COASNE</h2>
+                <br>
+                <p> Remerciements à toutes les personnes qui m'ont soutenues et m'ont aidées durant ce projet :</p>
+                <ul>
+                    <li>Muriel REY</li>
+                    <li>Patrick LUSSEYRAN</li>
+                    <li>Christophe DESEURE</li>
+                    <li>Tous mes professeurs (en particulier Daniel MULLER)</li>
+                </ul>
+                
+            </section>
+        </footer>
+    </body>
+
+</html>
